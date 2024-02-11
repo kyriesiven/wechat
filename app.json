@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/shop/shop",
+    "pages/orders/orders",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "猪坚强",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "list": [
+      {"pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "/image/猪.png",
+      "selectedIconPath": "/image/猪-01.png"},
+      {"pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "/image/商城.png",
+        "selectedIconPath": "/image/商城 (1).png"},
+      {"pagePath": "pages/orders/orders",
+        "text": "订单",
+        "iconPath": "/image/订单.png",
+        "selectedIconPath": "/image/订单 (1).png"},
+        {"pagePath": "pages/mine/mine",
+          "text": "我的",
+          "iconPath": "/image/我的.png",
+          "selectedIconPath": "/image/我的(1).png"}
+    ]
+  }
+}
